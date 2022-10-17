@@ -14,7 +14,7 @@ solarSistem.Add(new Planet(){ Id = 4, Name = "Mars" });
 
 solarSistem.ForEach(planet => {
     Console.WriteLine("Hello, {0}!", planet.Name);
-    Console.WriteLine("The {0} have {1} moons!", planet.Name, planet.NumberMoons);
+    Console.WriteLine("It have {1} moons!", planet.Name, planet.NumberMoons);
 });
 
 Console.WriteLine("Hello, New World!", solarSistem[2].Name);
