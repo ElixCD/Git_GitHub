@@ -8,7 +8,7 @@ solarSistem.Add(new Planet(){ Id = 1, Name = "Mercury" });
 solarSistem.Add(new Planet(){ Id = 2, Name = "Venus" });
 solarSistem.Add(new Planet(){ Id = 3, Name = "Blue Planet" });
 
-solarSistem.Add(new Planet(){ Id = 3, Name = "Mars" });
+solarSistem.Add(new Planet(){ Id = 4, Name = "Mars" });
 
 solarSistem.ForEach(planet => 
     Console.WriteLine("Hello, {0}!", planet.Name)
