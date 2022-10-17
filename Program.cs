@@ -2,7 +2,7 @@
 
 // See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Rama principal cambiada");
+Console.WriteLine("Rama principal cambiada - Git Github");
 
 List<Planet> solarSistem = new List<Planet>();
 
