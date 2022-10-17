@@ -2,6 +2,8 @@
 
 // See https://aka.ms/new-console-template for more information
 
+Console.WriteLine("Rama principal");
+
 List<Planet> solarSistem = new List<Planet>();
 
 solarSistem.Add(new Planet(){ Id = 1, Name = "Mercury" });
