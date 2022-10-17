@@ -2,7 +2,7 @@
 
 // See https://aka.ms/new-console-template for more information
 
-Console.WriteLine("Rama principal");
+Console.WriteLine("Rama Moons");
 
 List<Planet> solarSistem = new List<Planet>();
 
