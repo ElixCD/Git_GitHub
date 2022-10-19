@@ -3,6 +3,7 @@
 // See https://aka.ms/new-console-template for more information
 
 Console.WriteLine("Rama principal - Git Github vs gitlab");
+Console.WriteLine("Cambio desde github");
 
 List<Planet> solarSistem = new List<Planet>();
 
