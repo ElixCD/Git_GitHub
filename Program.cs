@@ -12,6 +12,8 @@ solarSistem.Add(new Planet(){ Id = 2, Name = "Venus" , InternalPlanet = true});
 solarSistem.Add(new Planet(){ Id = 3, Name = "Blue Planet" , NumberMoons = 1, InternalPlanet = true });
 solarSistem.Add(new Planet(){ Id = 4, Name = "Mars" , NumberMoons = 2, InternalPlanet = true});
 
+solarSistem.Add(new Planet(){ Id = -4, Name = "Asteroids", InternalPlanet = false});
+
 solarSistem.Add(new Planet(){ Id = 5, Name = "Jupiter" , NumberMoons = 79, InternalPlanet = false});
 solarSistem.Add(new Planet(){ Id = 6, Name = "Saturn" , NumberMoons = 82, InternalPlanet = false});
 solarSistem.Add(new Planet(){ Id = 7, Name = "Uranus" , NumberMoons = 27, InternalPlanet = false});
