@@ -19,7 +19,7 @@ solarSistem.Add(new Planet(){ Id = 5, Name = "Neptune" , NumberMoons = 14, Inter
 
 solarSistem.ForEach(planet => {
     Console.WriteLine("Hello, Welcome to {0} planet {1}!", (planet.InternalPlanet ? "internal" : "external")  , planet.Name);
-    Console.WriteLine("It have {0} moons!", planet.NumberMoons);
+    Console.WriteLine("It have {0} total moons!", planet.NumberMoons);
 });
 
 Console.WriteLine("Hello, New World!", solarSistem[2].Name);
