@@ -9,9 +9,9 @@ List<Planet> solarSistem = new List<Planet>();
 
 solarSistem.Add(new Planet(){ Id = 1, Name = "Mercury", NumberMoons = 0 });
 solarSistem.Add(new Planet(){ Id = 2, Name = "Venus" });
-solarSistem.Add(new Planet(){ Id = 3, Name = "Blue Planet" , NumberMoons = 4  });
+solarSistem.Add(new Planet(){ Id = 3, Name = "Blue Planet" , NumberMoons = 1  });
 
-solarSistem.Add(new Planet(){ Id = 4, Name = "Mars" });
+solarSistem.Add(new Planet(){ Id = 4, Name = "Mars" , NumberMoons = 2});
 
 solarSistem.ForEach(planet => {
     Console.WriteLine("Hello, Welcome to {0}!", planet.Name);
